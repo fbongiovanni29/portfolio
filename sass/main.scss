@@ -1,0 +1,27 @@
+@import 'partials/vendor/bourbon/bourbon';
+@import 'partials/vendor/scss/font-awesome';
+
+@include font-face("lokicola", "assets/fonts/lokicola-webfont");
+
+$cokecolor: #fe001a;
+
+body {
+	background-color: $cokecolor;
+}
+
+h1 {
+//	transform: rotate(90deg);
+	text-align: center;
+	font-family: lokicola;
+	color: white;
+	font-size: 600%
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+}
+
+h2 {
+	text-align: center;
+	color: white;
+	font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+}
