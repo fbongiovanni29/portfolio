@@ -10,14 +10,11 @@ body {
 }
 
 h1 {
-//	transform: rotate(90deg);
+	transform: rotate(90deg);
 	text-align: center;
 	font-family: lokicola;
 	color: white;
 	font-size: 600%
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
 }
 
 h2 {
