@@ -1,24 +1,31 @@
-@import 'partials/vendor/bourbon/bourbon';
-@import 'partials/vendor/scss/font-awesome';
+@import "partials/vendor/materialize/materialize";
 
-@include font-face("lokicola", "assets/fonts/lokicola-webfont");
-
-$cokecolor: #fe001a;
-
-body {
-	background-color: $cokecolor;
+.myRed {
+	@extend .red, .darken-2;
 }
 
-h1 {
-	transform: rotate(90deg);
-	text-align: center;
-	font-family: lokicola;
-	color: white;
-	font-size: 600%
+.nav-wrapper {
+    @extend .myRed;
 }
 
-h2 {
-	text-align: center;
-	color: white;
-	font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+.right.two{
+	display: none;
+	float: none !important;
+	height: 100%;
+	width: 100%
+
+}
+
+.right.one{
+	background-color: blue;
+	display: none;
+	float: none !important;
+	height: 100%;
+	width: 100%
+}
+
+.home {
+	background-color: green;
+	height: 100%;
+	width: 100%
 }
